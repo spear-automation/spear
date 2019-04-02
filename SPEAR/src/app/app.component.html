@@ -1,23 +1,15 @@
 <div>
-  <mat-toolbar color="primary" fxLayout="row">
-    <div id="logo-container" fxLayoutAlign="start center" *ngIf="logo">
-        <a (click)="onLogoClick()" fxLayout="column" fxLayoutAlign="center start" style="cursor: pointer;">
+  <mat-toolbar color="primary" fxLayout="row" fxLayoutGap="20px">
+    <div id="logo-container" fxLayoutAlign="start" *ngIf="logo">
+        <a (click)="onLogoClick()" fxLayout="column" fxLayoutAlign="center" style="cursor: pointer;">
           <img [src]="logo">
         </a>
-      </div>
-    <div style="text-align: center" fxFlex>
-      <span >Welcome to IcoSpear</span>
     </div>
-     <div fxLayoutAlign="start right">
-        <button mat-fab [matMenuTriggerFor]="menu" color="accent">
-          <mat-icon>more_vert</mat-icon>
-        </button>
-        <mat-menu #menu="matMenu">
-          <button mat-menu-item (click)="onHome()">Home</button>
-          <button mat-menu-item (click)="onAboutUs()">About Us</button>
-        </mat-menu>
-      </div>
-</mat-toolbar>
+    <span class = "spear-text">Spear</span>
+    <span class = "fill"></span>
+    <button mat-button class = "link-button" (click) = onHome()>Home</button>
+    <button mat-button class = "link-button" (click) = onAboutUs()>About Us</button>
+  </mat-toolbar>
 </div>
 <router-outlet></router-outlet>
 

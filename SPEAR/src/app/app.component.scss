@@ -30,3 +30,17 @@
   border-radius: 25px;
   overflow: hidden;
 }
+
+.fill {
+  flex: 1 1 auto;
+}
+
+.link-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 0.8em;
+  outline: none;
+}
