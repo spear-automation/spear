@@ -7,12 +7,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ContactComponent,
+    ProductComponent,
   ],
   imports: [
     AppRoutingModule,
@@ -21,6 +26,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     BrowserModule,
     RouterModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     // Angular Material Modules
     MatToolbarModule,
     MatMenuModule,

@@ -1,0 +1,46 @@
+
+.bottom-container {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.text-container {
+    background-color: transparent;
+    height: 50%;
+    width: 100%;
+    font-size: 4em;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    margin-left: 0.5em;
+}
+
+.bottom-text {
+    font-size: 4em;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.fill {
+    flex: 1 1 auto;
+  }
+
+.product-button {
+    width: 50%;
+    height: 80%;
+    font-family: Georgia, serif;
+    font-size: .35em;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.inner-container {
+    background-color: transparent;
+    height: 20%
+}

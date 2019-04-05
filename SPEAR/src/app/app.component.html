@@ -1,15 +1,16 @@
 <div>
-  <mat-toolbar color="primary" fxLayout="row" fxLayoutGap="20px">
-    <div id="logo-container" fxLayoutAlign="start" *ngIf="logo">
-        <a (click)="onLogoClick()" fxLayout="column" fxLayoutAlign="center" style="cursor: pointer;">
-          <img [src]="logo">
-        </a>
-    </div>
-    <span class = "spear-text">Spear</span>
-    <span class = "fill"></span>
-    <button mat-button class = "link-button" (click) = onHome()>Home</button>
-    <button mat-button class = "link-button" (click) = onAboutUs()>About Us</button>
-  </mat-toolbar>
+  <mat-toolbar class = "transparent" fxLayout="row" style="height:110px;">
+      <div id="logo-container" fxLayoutAlign="start" *ngIf="logo">
+          <a (click)="onLogoClick()" fxLayout="column" fxLayoutAlign="center" style="cursor: pointer;">
+            <img [src] = logo style="width:90px;height:90px;">
+          </a>
+      </div>
+      <span class = "spear-text"> Spear</span>
+      <span class = "fill"></span>
+      <button mat-raised-button class = "link-button" (click) = onHome()>Home</button>
+      <button mat-raised-button class = "link-button" (click) = onProduct()> Product</button>
+      <button mat-raised-button class = "link-button" (click) = onAboutUs()>About Us</button>
+      <button mat-raised-button class = "link-button" (click) = onContact()> Contact</button>
+    </mat-toolbar>
 </div>
 <router-outlet></router-outlet>
-

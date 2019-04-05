@@ -8,7 +8,7 @@ import { routerNgProbeToken } from '@angular/router/src/router_module';
 })
 export class AppComponent {
   title = 'SPEAR';
-  logo = 'favicon.ico';
+  logo = 'assets/images/logo6.png';
 
   constructor(
     private readonly router: Router,
@@ -24,5 +24,12 @@ export class AppComponent {
   }
   public onAboutUs() {
     this.router.navigate(['about-us']);
+  }
+  public onContact() {
+    this.router.navigate(['contact']);
+  }
+
+  public onProduct() {
+    this.router.navigate(['product']);
   }
 }

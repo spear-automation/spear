@@ -1,4 +1,5 @@
 @import '../styles.scss';
+@import '~@angular/material/theming'; @include mat-core();
 
   $theme-primary: mat-palette($mat-indigo);
   $theme-accent: mat-palette($mat-blue-grey);
@@ -26,10 +27,6 @@
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
 .material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
 
-.mat-toolbar{
-  border-radius: 25px;
-  overflow: hidden;
-}
 
 .fill {
   flex: 1 1 auto;
@@ -40,7 +37,17 @@
   background-repeat: no-repeat;
   border: none;
   cursor: pointer;
-  color: white;
   font-size: 0.8em;
+  font-family: Georgia, serif;
   outline: none;
+}
+
+.spear-text {
+  font-size: 2em;
+  font-family: Georgia, serif;
+  font-weight: bold
+}
+
+.transparent {
+  background-color: transparent;
 }
