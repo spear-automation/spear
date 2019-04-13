@@ -48,6 +48,13 @@
   font-weight: bold
 }
 
-.transparent {
+.top-bar {
   background-color: transparent;
+  position: fixed;
+  top: 0;
+}
+
+.bottom-bar {
+  background-color: transparent;
+  bottom: 0;
 }

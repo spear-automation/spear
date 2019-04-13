@@ -25,8 +25,8 @@ export class AppComponent {
   public onAboutUs() {
     this.router.navigate(['about-us']);
   }
-  public onContact() {
-    this.router.navigate(['contact']);
+  public onRoadmap() {
+    this.router.navigate(['roadmap']);
   }
 
   public onProduct() {

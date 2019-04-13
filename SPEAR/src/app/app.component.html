@@ -1,5 +1,5 @@
 <div>
-  <mat-toolbar class = "transparent" fxLayout="row" style="height:110px;">
+  <mat-toolbar class = "top-bar" fxLayout="row" style="height:110px;">
       <div id="logo-container" fxLayoutAlign="start" *ngIf="logo">
           <a (click)="onLogoClick()" fxLayout="column" fxLayoutAlign="center" style="cursor: pointer;">
             <img [src] = logo style="width:90px;height:90px;">
@@ -7,10 +7,15 @@
       </div>
       <span class = "spear-text"> Spear</span>
       <span class = "fill"></span>
-      <button mat-raised-button class = "link-button" (click) = onHome()>Home</button>
-      <button mat-raised-button class = "link-button" (click) = onProduct()> Product</button>
-      <button mat-raised-button class = "link-button" (click) = onAboutUs()>About Us</button>
-      <button mat-raised-button class = "link-button" (click) = onContact()> Contact</button>
+      <button mat-raised-button class = "link-button" (click) = "onHome()">Home</button>
+      <button mat-raised-button class = "link-button" (click) = "onProduct()"> Product</button>
+      <button mat-raised-button class = "link-button" (click) = "onAboutUs()">About Us</button>
+      <button mat-raised-button class = "link-button" (click) = "onRoadmap()"> Roadmap</button>
     </mat-toolbar>
 </div>
 <router-outlet></router-outlet>
+<div>
+    <mat-toolbar class = "bottom-bar" fxLayout="row" style="height:110px;">
+        Toolbar
+    </mat-toolbar>
+  </div>

@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { RoadmapComponent } from './components/roadmap/roadmap.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { ContactComponent } from './components/contact/contact.component';
 import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
@@ -16,7 +16,7 @@ import { ProductComponent } from './components/product/product.component';
     AppComponent,
     HomeComponent,
     AboutUsComponent,
-    ContactComponent,
+    RoadmapComponent,
     ProductComponent,
   ],
   imports: [
