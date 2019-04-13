@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
   
-  public onProduct() {
-    this.router.navigate(['product']);
+  public onAboutUs() {
+    this.router.navigate(['about-us']);
   }
 }
