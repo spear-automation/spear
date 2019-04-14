@@ -90,8 +90,7 @@
     font-size: bold;
     background-image: url('/assets/images/SpearDashboard.PNG');
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 1cm;
+    background-size: contain;
     width: 50%;
     font-size: 1.5cm;
 }
@@ -118,7 +117,6 @@
     height: min-content;
     font-size: bold;
     width: 70%;
-    margin-top: 6cm;
     font-size: 1.5cm;
 }
 
