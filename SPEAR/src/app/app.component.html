@@ -15,7 +15,16 @@
 </div>
 <router-outlet></router-outlet>
 <div>
-    <mat-toolbar class = "bottom-bar" fxLayout="row" style="height:110px;">
-        Toolbar
+    <mat-toolbar class = "bottom-bar" fxLayout="row" style="height:110px;" fxLayoutAlign = "center center">
+        Contact Us:  
+        <address>
+          &nbsp;
+          <a href = "mailto:team@spearautomation.com" style="color: white">team@spearautomation.com</a>
+        </address>
+        <span class = "fill"></span>
+        <button mat-raised-button class = "link-button-bottom" (click) = "onHome()">Home</button>
+        <button mat-raised-button class = "link-button-bottom" (click) = "onProduct()"> Product</button>
+        <button mat-raised-button class = "link-button-bottom" (click) = "onAboutUs()">About Us</button>
+        <button mat-raised-button class = "link-button-bottom" (click) = "onRoadmap()"> Roadmap</button>
     </mat-toolbar>
   </div>

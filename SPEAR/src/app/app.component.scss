@@ -56,5 +56,19 @@
 
 .bottom-bar {
   background-color: #034078;
+  font-family: Georgia, serif;
+  font-size: 0.5cm;
   bottom: 0;
+  color: white;
+}
+
+.link-button-bottom {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-family: Georgia, serif;
+  outline: none;
 }

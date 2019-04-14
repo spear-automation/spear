@@ -17,4 +17,12 @@ export class HomeComponent implements OnInit {
   public onAboutUs() {
     this.router.navigate(['about-us']);
   }
+
+  public onProduct() {
+    this.router.navigate(['product']);
+  }
+
+  public onRoadmap() {
+    this.router.navigate(['roadmap']);
+  }
 }
