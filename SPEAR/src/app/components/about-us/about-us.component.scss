@@ -1,8 +1,63 @@
+.intro-container {
+  width: 100%;
+  height: 6cm;
+  margin-top: 3cm;
+}
+
 .person-container {
   width: 100%;
+  height: 6cm;
 }
-img {
-  width: auto;
-  height: auto;
 
+.image-cropper {
+  width: 4cm;
+  height: 4cm;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 1cm;
 }
+.ethan-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -50%; 
+  margin-top: -10%;
+  height: 140%;
+  width: auto;
+}
+
+.sonny-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: 0%;
+  height: 125%;
+  width: auto;
+}
+
+.chip-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -6%;
+  margin-top: -25%;
+  height: 160%;
+  width: auto;
+}
+
+.dina-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -2%;
+  margin-top: 0%;
+  height: 110%;
+  width: auto;
+}
+
+.luke-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -13%;
+  margin-top: -20%;
+  height: 170%;
+  width: auto;
+}
+  
