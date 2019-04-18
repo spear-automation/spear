@@ -1,3 +1,7 @@
+body {
+    font-family: Georgia, serif;
+}
+
 .intro-container {
     margin-top: 2cm;
     background-image: url('/assets/images/datatransfer.png');
@@ -32,14 +36,12 @@
     height: 50%;
     width: 100%;
     font-size: 3.8em;
-    font-family: Georgia, serif;
     font-weight: bold;
     margin-left: 0.5em;
 }
 
 .intro-text {
     font-size: 1.3cm;
-    font-family: Georgia, serif;
     font-weight: bold
 }
 
