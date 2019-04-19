@@ -1,5 +1,5 @@
 body {
-    font-family: Georgia, serif;
+  font-family: "Playfair Display SC";
 }
 
 .intro-container {
@@ -7,6 +7,9 @@ body {
     background-image: url('/assets/images/datatransfer.png');
     background-position: center center;
     background-repeat: no-repeat;
+    font-family: "Times New Roman";
+    color: #034078;
+    font-size: 1em;
     width: 100%;
     height: 18cm;
 }
@@ -17,6 +20,7 @@ body {
     background-size: 70%;
     background-position: top 15% left 50%;
     background-origin: initial;
+    color: #034078;
     width: 100%;
     height: 24cm;
     border-bottom-style: solid;
@@ -42,18 +46,21 @@ body {
     font-size: 3.8em;
     font-weight: bold;
     margin-left: 0.5em;
+    color: #034078;
 }
 
 .intro-text {
+  color: #034078;
     font-size: 1.3cm;
     font-weight: bold
-}
+  }
 
 .about-us-text {
     height: min-content;
     font-size: bold;
     width: 70%;
     margin-top: 12cm;
+    color: #034078;
     font-size: 1.5cm;
     text-align: center;
 }
@@ -61,7 +68,7 @@ body {
 .about-us-button {
     width: 6cm;
     height: 1.5cm;
-    font-family: Georgia, serif;
+    font-family: "Playfair Display SC", serif;
     font-size: .5cm;
     background-repeat: no-repeat;
     border: none;
@@ -86,6 +93,7 @@ body {
     font-size: bold;
     background: transparent;
     margin-top: 1cm;
+    color: #034078;
     margin-left: 0.5cm;
     width: 50%;
     font-size: 1.5cm;
@@ -106,7 +114,7 @@ body {
 .product-button {
     width: 6cm;
     height: 1.5cm;
-    font-family: Georgia, serif;
+    font-family: "Playfair Display SC", serif;
     font-size: .5cm;
     background-repeat: no-repeat;
     border: none;
@@ -124,8 +132,9 @@ body {
 .roadmap-text {
     height: min-content;
     width: 70%;
-    font-size: 1cm;
     text-align: center;
+    color: #034078;
+    font-size: 1cm;
 }
 
 .roadmap-header {
@@ -138,7 +147,7 @@ body {
 .roadmap-button {
     width: 6cm;
     height: 1.5cm;
-    font-family: Georgia, serif;
+    font-family: "Playfair Display SC", serif;
     font-size: .5cm;
     background-repeat: no-repeat;
     border: none;
