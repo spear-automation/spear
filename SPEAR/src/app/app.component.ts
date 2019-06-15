@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(
     private readonly router: Router,
-  ){
+  ) {
 
   }
 

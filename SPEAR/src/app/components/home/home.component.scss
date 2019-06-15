@@ -15,9 +15,9 @@ body {
 }
 
 .about-us-container {
-    background-image: url('/assets/images/teambackground.png');
+    background-image: url('/assets/images/SpearTeam.PNG');
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 100%;
     background-position: top 15% left 50%;
     background-origin: initial;
     color: #034078;
@@ -59,10 +59,14 @@ body {
     height: min-content;
     font-size: bold;
     width: 70%;
-    margin-top: 12cm;
-    color: #034078;
+    margin-top: 300px;
+    color: #ffffff;
     font-size: 1.5cm;
     text-align: center;
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    background: rgba(3, 64, 120, 0.4)
 }
 
 .about-us-button {
@@ -98,11 +102,12 @@ body {
     width: 50%;
     font-size: 1.5cm;
     text-align: center;
+    border-right: solid 5px #034078;
 }
 
 
 .product-picture {
-    height: 10cm;
+    height: 500px;
     font-size: bold;
     background-image: url('/assets/images/SpearDashboard.PNG');
     background-repeat: no-repeat;
