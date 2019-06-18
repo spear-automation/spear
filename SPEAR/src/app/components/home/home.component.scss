@@ -18,8 +18,9 @@ body {
     background-image: url('/assets/images/SpearTeam.PNG');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: top 15% left 50%;
+    background-position-y: center;
     background-origin: initial;
+    background-color: #034078;
     color: #034078;
     width: 100%;
     height: 24cm;
@@ -36,7 +37,7 @@ body {
 
 .roadmap-container {
     width: 100%;
-    height: 18cm;
+    height: 20cm;
 }
 
 .text-container {
@@ -52,7 +53,8 @@ body {
 .intro-text {
   color: #034078;
     font-size: 1.3cm;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
   }
 
 .about-us-text {
